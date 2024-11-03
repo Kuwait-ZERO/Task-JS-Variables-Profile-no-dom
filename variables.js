@@ -9,6 +9,12 @@
  * 5. image         -> assign it a value of a url of your image or ant image that represents you online
  */
 
+const  fullName  = "HUssain Alqallaf";
+const  yearOfBirth = 2002
+const  hobby      = 'Padel';
+const  funFact    = "I used to like math";
+const image    =  'none'
+
 // Part 1 answer 👇🏻 ...
 
 /**
@@ -24,9 +30,9 @@
  * You can uncomment a line by removing the // at the start
  */
 
-// const fullNameString = `My name is ${}`;
-// const ageString =
-// const hobbyString =
+ const fullNameString = `My name is ${fullName}`;
+ const ageString = `I am ${2024-2002}`;
+ const hobbyString = `My hobby is ${hobby}`
 
 /**
  * Part 3: Re-assignment
@@ -36,30 +42,34 @@
 let stars = 0;
 
 function incrementBy1() {
+  stars = stars +1
   // Increment stars by 1 👇🏻
 }
 function decrementBy1() {
   // decrement stars by 1 👇🏻
+  stars = stars - 1
 }
 
 function incrementBy2() {
   // Increment stars by 2 👇🏻
+  stars = stars +2
 }
 function decrementBy2() {
   // decrement stars by 2 👇🏻
+  stars = stars -2
 }
 
 // TODO: Uncomment these variables as you work on them
 // Make sure they're all uncommented before you push your solution!
 module.exports = {
-  // fullName,
-  // yearOfBirth,
-  // hobby,
-  // funFact,
-  // image,
-  // fullNameString,
-  // ageString,
-  // hobbyString,
+    fullName,
+  yearOfBirth,
+   hobby,
+   funFact,
+  image,
+   fullNameString,
+   ageString,
+   hobbyString,
   incrementBy1,
   incrementBy2,
   decrementBy1,
